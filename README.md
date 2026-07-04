@@ -224,25 +224,25 @@ jupyter notebook Hand\_Gesture\_Recognition.ipynb
 
 **Dataset Samples**
 
-!\[Samples](dataset\_samples.png)
+![Samples](dataset\_samples.png)
 
 
 
 **Training Accuracy**
 
-!\[Accuracy](accuracy\_graph.png)
+![Accuracy](accuracy\_graph.png)
 
 
 
 **Training Loss**
 
-!\[Loss](loss\_graph.png)
+![Loss](loss\_graph.png)
 
 
 
 **Sample Predictions**
 
-!\[Predictions](sample\_predictions.png)
+![Predictions](sample\_predictions.png)
 
 
 
