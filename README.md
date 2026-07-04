@@ -1,275 +1,144 @@
-###### Hand Gesture Recognition using CNN
+# ✋ Hand Gesture Recognition using CNN
 
-
+![Hand Gesture Recognition](sample_predictions.png)
 
 **SkillCraft Technology - Machine Learning Internship**
 
-Task 04
+**Task 04**
 
+This project implements a **Hand Gesture Recognition System** using a **Convolutional Neural Network (CNN)**. The model is trained on the **LeapGestRecog** dataset to classify hand gestures with high accuracy.
 
+---
 
-This project implements a Hand Gesture Recognition System using a Convolutional Neural Network (CNN). The model is trained on the LeapGestRecog dataset to classify different hand gestures from grayscale images.
+## 📌 Project Overview
 
+The objective of this project is to develop a deep learning model capable of recognizing different hand gestures from images. Such systems have applications in:
 
+- Human-Computer Interaction
+- Touchless Control Systems
+- Virtual Reality
+- Sign Language Recognition
+- Smart Automation
 
-The project demonstrates the complete deep learning workflow, including image preprocessing, model training, evaluation, visualization of training performance, and gesture prediction.
+---
 
+## ✨ Features
 
+- Image preprocessing and normalization
+- CNN-based gesture classification
+- High classification accuracy
+- Training and validation visualization
+- Sample gesture prediction
+- Saved trained model for future use
 
+---
 
+## 🛠 Technologies Used
 
-###### Project Overview
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+- Matplotlib
+- Scikit-learn
 
+---
 
+## 📂 Dataset
 
-The objective of this project is to develop a CNN model capable of accurately recognizing different hand gestures. Such systems are widely used in:
-
-
-
-* Human-Computer Interaction
-* Touchless Control Systems
-* Virtual Reality
-* Sign Language Recognition
-* Smart Automation
-
-
-
-
-
-###### Features
-
-
-
-* Image preprocessing and normalization
-* CNN-based gesture classification
-* Training and validation accuracy visualization
-* Training and validation loss visualization
-* Sample gesture predictions
-* Saved trained model for future use
-
-
-
-
-
-###### Dataset
-
-
-
-This project uses the LeapGestRecog dataset from Kaggle.
-
-
-
-Dataset Link:
-
-
+Dataset: **LeapGestRecog**
 
 https://www.kaggle.com/datasets/gti-upm/leapgestrecog
 
+> **Note:** The dataset is not included in this repository due to its large size.
 
+---
 
-Note: The dataset is not included in this repository because of its large size.
+## 🔄 Machine Learning Workflow
 
+1. Download the dataset
+2. Resize images to **64 × 64**
+3. Normalize pixel values
+4. Split into training and testing sets
+5. Build the CNN model
+6. Train the model
+7. Evaluate performance
+8. Plot accuracy and loss graphs
+9. Predict sample gestures
+10. Save the trained model
 
+---
 
+## 🖼 Sample Images
 
+![Dataset Samples](dataset_samples.png)
 
-###### Technologies Used
+---
 
+## 🔍 Sample Predictions
 
+![Sample Predictions](sample_predictions.png)
 
-* Python
-* TensorFlow / Keras
-* OpenCV
-* NumPy
-* Matplotlib
-* Scikit-learn
+---
 
-
-
-
-
-###### CNN Model
-
-
-
-###### Input Image Size:
-
-
-
-64 × 64 pixels
-
-
-
-
-
-###### Gesture Classes:
-
-
-
-* Palm
-* L
-* Fist
-* Fist\_Moved
-* Thumb
-* Index
-* OK
-* Palm\_Moved
-* C
-* Down
-
-
-
-
-
-###### Project Workflow
-
-
-
-* Download the LeapGestRecog dataset.
-* Resize all images to 64 × 64.
-* Normalize pixel values.
-* Split data into training and testing sets.
-* Build a CNN model.
-* Train the model.
-* Evaluate model performance.
-* Plot accuracy and loss graphs.
-* Predict sample hand gestures.
-* Save the trained model.
-
-
-
-
-
-###### Results
-
-
-
-The CNN achieved approximately 99–100% test accuracy on the dataset.
-
-
-
-Generated outputs include:
-
-
-
-* Dataset samples
-* Training accuracy graph
-* Training loss graph
-* Sample predictions
-* Trained CNN model
-
-
-
-
-
-###### Project Structure
-
-
-
-SCT\_ML\_4/
-
-│── Hand\_Gesture\_Recognition.ipynb
-
-│── README.md
-
-│── requirements.txt
-
-│── hand\_gesture\_model.h5
-
-│── accuracy\_graph.png
-
-│── loss\_graph.png
-
-│── sample\_predictions.png
-
-│── dataset\_samples.png
-
-
-
-
-
-###### Installation
-
-
-
-**Clone the repository:**
-
-
-
-git clone https://github.com/AmruthaRaju24/SCT\_ML\_4.git
-
-
-
-**Install the required libraries:**
-
-
-
-pip install -r requirements.txt
-
-
-
-**Run the notebook:**
-
-
-
-jupyter notebook Hand\_Gesture\_Recognition.ipynb
-
-
-
-
-
-###### Output Images
-
-
-
-**Dataset Samples**
-
-![Samples](dataset\_samples.png)
-
-
+## 📈 Results
 
 **Training Accuracy**
 
-![Accuracy](accuracy\_graph.png)
-
-
+![Training Accuracy](accuracy_graph.png)
 
 **Training Loss**
 
-![Loss](loss\_graph.png)
+![Training Loss](loss_graph.png)
 
+### Model Performance
 
+- Test Accuracy: **~99–100%**
+- Successfully classified **10 hand gesture classes**
+- Saved trained CNN model for future inference
 
-**Sample Predictions**
+---
 
-![Predictions](sample\_predictions.png)
+## 📁 Project Files
 
+```
+SCT_ML_4/
+│── Hand_Gesture_Recognition.ipynb
+│── README.md
+│── requirements.txt
+│── hand_gesture_model.h5
+│── accuracy_graph.png
+│── loss_graph.png
+│── dataset_samples.png
+│── sample_predictions.png
+```
 
+---
 
+## 🚀 Future Improvements
 
+- Real-time webcam gesture recognition
+- More gesture classes
+- Better performance under different lighting conditions
+- Mobile deployment using TensorFlow Lite
+- Gesture-controlled applications
 
+---
 
+## 💼 Internship
 
-###### Future Improvements
+This project was completed as **Task 04** of the **Machine Learning Internship** at **SkillCraft Technology**.
 
+---
 
+## 👨‍💻 Author
 
-* Improve robustness under different lighting conditions.
-* Expand the dataset with more gesture categories.
-* Deploy the model as a real-time webcam application.
-* Optimize the model for mobile and edge devices.
+**Amruth Raju**
 
+GitHub: https://github.com/AmruthaRaju24
 
+LinkedIn: https://www.linkedin.com/in/amrutharaju-gundla-10625638a
 
+---
 
-
-###### Acknowledgements
-
-
-
-SkillCraft Technology
-
-Kaggle (LeapGestRecog Dataset)
-
-TensorFlow/Keras Documentation
-
+⭐ If you found this project useful, consider giving it a star!
