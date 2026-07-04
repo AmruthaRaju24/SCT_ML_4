@@ -103,7 +103,7 @@ https://www.kaggle.com/datasets/gti-upm/leapgestrecog
 
 ```
 SCT_ML_4/
-│── Hand_Gesture_Recognition.ipynb
+│── hand_gesture_recognition.ipynb
 │── README.md
 │── requirements.txt
 │── hand_gesture_model.h5
